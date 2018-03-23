@@ -1,0 +1,6 @@
+framework module Pods_PKReaderTests {
+  umbrella header "Pods-PKReaderTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E35EAB25B4B861FEAE0EDAB /* Pods_PKReaderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 828C62E529FE09E1E669A53A /* Pods_PKReaderUITests.framework */; };
+		4AC650522064C64C00BCC33D /* 韩寒.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4AC650512064C64C00BCC33D /* 韩寒.txt */; };
+		4AC650542064C6A400BCC33D /* PKReaderConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC650532064C6A400BCC33D /* PKReaderConfig.swift */; };
+		4AC650562064C80A00BCC33D /* PKPageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC650552064C80A00BCC33D /* PKPageModel.swift */; };
+		4AC6505A2064D7DF00BCC33D /* content.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4AC650592064D7DF00BCC33D /* content.txt */; };
 		4AE5679B2064C17100990835 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE5679A2064C17100990835 /* AppDelegate.swift */; };
 		4AE5679D2064C17100990835 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE5679C2064C17100990835 /* ViewController.swift */; };
 		4AE567A02064C17100990835 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AE5679E2064C17100990835 /* Main.storyboard */; };
@@ -14,6 +19,10 @@
 		4AE567A52064C17200990835 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AE567A32064C17200990835 /* LaunchScreen.storyboard */; };
 		4AE567B02064C17200990835 /* PKReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE567AF2064C17200990835 /* PKReaderTests.swift */; };
 		4AE567BB2064C17200990835 /* PKReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE567BA2064C17200990835 /* PKReaderUITests.swift */; };
+		4AE567CD2064C1E300990835 /* PKReaderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE567CB2064C1E300990835 /* PKReaderVC.swift */; };
+		4AE567D02064C20200990835 /* PKReaderTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE567CF2064C20200990835 /* PKReaderTool.swift */; };
+		75B5BBE051CCE6ACFECEFE22 /* Pods_PKReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C890D1A2984DB5446C3C0B3 /* Pods_PKReader.framework */; };
+		D2AC127D044AAE38928D603E /* Pods_PKReaderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D5B11102989E5B5B24AE55F /* Pods_PKReaderTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C890D1A2984DB5446C3C0B3 /* Pods_PKReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PKReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AC650512064C64C00BCC33D /* 韩寒.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "韩寒.txt"; sourceTree = "<group>"; };
+		4AC650532064C6A400BCC33D /* PKReaderConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PKReaderConfig.swift; sourceTree = "<group>"; };
+		4AC650552064C80A00BCC33D /* PKPageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PKPageModel.swift; sourceTree = "<group>"; };
+		4AC650592064D7DF00BCC33D /* content.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = content.txt; sourceTree = "<group>"; };
 		4AE567972064C17100990835 /* PKReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PKReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AE5679A2064C17100990835 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4AE5679C2064C17100990835 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +61,16 @@
 		4AE567B62064C17200990835 /* PKReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PKReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AE567BA2064C17200990835 /* PKReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PKReaderUITests.swift; sourceTree = "<group>"; };
 		4AE567BC2064C17200990835 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AE567CB2064C1E300990835 /* PKReaderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PKReaderVC.swift; sourceTree = "<group>"; };
+		4AE567CF2064C20200990835 /* PKReaderTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PKReaderTool.swift; sourceTree = "<group>"; };
+		4D5B11102989E5B5B24AE55F /* Pods_PKReaderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PKReaderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6751289F4CB027393107F0A4 /* Pods-PKReaderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PKReaderUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PKReaderUITests/Pods-PKReaderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		828C62E529FE09E1E669A53A /* Pods_PKReaderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PKReaderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8798AA997F930603A7006AC3 /* Pods-PKReaderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PKReaderUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PKReaderUITests/Pods-PKReaderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AC92A2AA1DC872309C7EF7B1 /* Pods-PKReader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PKReader.release.xcconfig"; path = "Pods/Target Support Files/Pods-PKReader/Pods-PKReader.release.xcconfig"; sourceTree = "<group>"; };
+		BDCD48589968B3BD871F07DF /* Pods-PKReaderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PKReaderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PKReaderTests/Pods-PKReaderTests.release.xcconfig"; sourceTree = "<group>"; };
+		E47A0D09409BC4F0AF453734 /* Pods-PKReaderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PKReaderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PKReaderTests/Pods-PKReaderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F0C2943D7873E6F2B4B059F8 /* Pods-PKReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PKReader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PKReader/Pods-PKReader.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75B5BBE051CCE6ACFECEFE22 /* Pods_PKReader.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2AC127D044AAE38928D603E /* Pods_PKReaderTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E35EAB25B4B861FEAE0EDAB /* Pods_PKReaderUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +108,8 @@
 				4AE567AE2064C17200990835 /* PKReaderTests */,
 				4AE567B92064C17200990835 /* PKReaderUITests */,
 				4AE567982064C17100990835 /* Products */,
+				C43CFE770FFC13323FB737F1 /* Pods */,
+				579334A027357EBA9BB1CF32 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +126,15 @@
 		4AE567992064C17100990835 /* PKReader */ = {
 			isa = PBXGroup;
 			children = (
+				4AE567C82064C18E00990835 /* Reader */,
 				4AE5679A2064C17100990835 /* AppDelegate.swift */,
 				4AE5679C2064C17100990835 /* ViewController.swift */,
 				4AE5679E2064C17100990835 /* Main.storyboard */,
 				4AE567A12064C17100990835 /* Assets.xcassets */,
 				4AE567A32064C17200990835 /* LaunchScreen.storyboard */,
 				4AE567A62064C17200990835 /* Info.plist */,
+				4AC650512064C64C00BCC33D /* 韩寒.txt */,
+				4AC650592064D7DF00BCC33D /* content.txt */,
 			);
 			path = PKReader;
 			sourceTree = "<group>";
@@ -125,6 +157,40 @@
 			path = PKReaderUITests;
 			sourceTree = "<group>";
 		};
+		4AE567C82064C18E00990835 /* Reader */ = {
+			isa = PBXGroup;
+			children = (
+				4AE567CB2064C1E300990835 /* PKReaderVC.swift */,
+				4AE567CF2064C20200990835 /* PKReaderTool.swift */,
+				4AC650532064C6A400BCC33D /* PKReaderConfig.swift */,
+				4AC650552064C80A00BCC33D /* PKPageModel.swift */,
+			);
+			path = Reader;
+			sourceTree = "<group>";
+		};
+		579334A027357EBA9BB1CF32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C890D1A2984DB5446C3C0B3 /* Pods_PKReader.framework */,
+				4D5B11102989E5B5B24AE55F /* Pods_PKReaderTests.framework */,
+				828C62E529FE09E1E669A53A /* Pods_PKReaderUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C43CFE770FFC13323FB737F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F0C2943D7873E6F2B4B059F8 /* Pods-PKReader.debug.xcconfig */,
+				AC92A2AA1DC872309C7EF7B1 /* Pods-PKReader.release.xcconfig */,
+				E47A0D09409BC4F0AF453734 /* Pods-PKReaderTests.debug.xcconfig */,
+				BDCD48589968B3BD871F07DF /* Pods-PKReaderTests.release.xcconfig */,
+				8798AA997F930603A7006AC3 /* Pods-PKReaderUITests.debug.xcconfig */,
+				6751289F4CB027393107F0A4 /* Pods-PKReaderUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +198,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4AE567BF2064C17200990835 /* Build configuration list for PBXNativeTarget "PKReader" */;
 			buildPhases = (
+				CE66D85901CA06B93A48EACD /* [CP] Check Pods Manifest.lock */,
 				4AE567932064C17100990835 /* Sources */,
 				4AE567942064C17100990835 /* Frameworks */,
 				4AE567952064C17100990835 /* Resources */,
+				19E9682306C1FF84BBCCE89E /* [CP] Embed Pods Frameworks */,
+				888821261271D591F4BE9CCC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +218,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4AE567C22064C17200990835 /* Build configuration list for PBXNativeTarget "PKReaderTests" */;
 			buildPhases = (
+				4C1F3D1192EDF69FD07211DA /* [CP] Check Pods Manifest.lock */,
 				4AE567A72064C17200990835 /* Sources */,
 				4AE567A82064C17200990835 /* Frameworks */,
 				4AE567A92064C17200990835 /* Resources */,
+				D3B7770365F091F80D6D0E14 /* [CP] Embed Pods Frameworks */,
+				E2EB6DC1175555B651DE176E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +239,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4AE567C52064C17200990835 /* Build configuration list for PBXNativeTarget "PKReaderUITests" */;
 			buildPhases = (
+				BB60103254AA3B429D1B928F /* [CP] Check Pods Manifest.lock */,
 				4AE567B22064C17200990835 /* Sources */,
 				4AE567B32064C17200990835 /* Frameworks */,
 				4AE567B42064C17200990835 /* Resources */,
+				A263CC670C5B39D7F1358A1E /* [CP] Embed Pods Frameworks */,
+				AA5C5E0523533B45DCC22CE8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,6 +310,8 @@
 				4AE567A52064C17200990835 /* LaunchScreen.storyboard in Resources */,
 				4AE567A22064C17100990835 /* Assets.xcassets in Resources */,
 				4AE567A02064C17100990835 /* Main.storyboard in Resources */,
+				4AC650522064C64C00BCC33D /* 韩寒.txt in Resources */,
+				4AC6505A2064D7DF00BCC33D /* content.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,12 +331,154 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		19E9682306C1FF84BBCCE89E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PKReader/Pods-PKReader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C1F3D1192EDF69FD07211DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		888821261271D591F4BE9CCC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PKReader/Pods-PKReader-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A263CC670C5B39D7F1358A1E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PKReaderUITests/Pods-PKReaderUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA5C5E0523533B45DCC22CE8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PKReaderUITests/Pods-PKReaderUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB60103254AA3B429D1B928F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CE66D85901CA06B93A48EACD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D3B7770365F091F80D6D0E14 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PKReaderTests/Pods-PKReaderTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2EB6DC1175555B651DE176E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PKReaderTests/Pods-PKReaderTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4AE567932064C17100990835 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AC650562064C80A00BCC33D /* PKPageModel.swift in Sources */,
+				4AC650542064C6A400BCC33D /* PKReaderConfig.swift in Sources */,
+				4AE567D02064C20200990835 /* PKReaderTool.swift in Sources */,
 				4AE5679D2064C17100990835 /* ViewController.swift in Sources */,
+				4AE567CD2064C1E300990835 /* PKReaderVC.swift in Sources */,
 				4AE5679B2064C17100990835 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,6 +643,7 @@
 		};
 		4AE567C02064C17200990835 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0C2943D7873E6F2B4B059F8 /* Pods-PKReader.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,6 +659,7 @@
 		};
 		4AE567C12064C17200990835 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC92A2AA1DC872309C7EF7B1 /* Pods-PKReader.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +675,7 @@
 		};
 		4AE567C32064C17200990835 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E47A0D09409BC4F0AF453734 /* Pods-PKReaderTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +693,7 @@
 		};
 		4AE567C42064C17200990835 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDCD48589968B3BD871F07DF /* Pods-PKReaderTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +711,7 @@
 		};
 		4AE567C62064C17200990835 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8798AA997F930603A7006AC3 /* Pods-PKReaderUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +728,7 @@
 		};
 		4AE567C72064C17200990835 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6751289F4CB027393107F0A4 /* Pods-PKReaderUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

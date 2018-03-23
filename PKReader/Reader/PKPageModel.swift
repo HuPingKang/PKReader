@@ -9,5 +9,7 @@
 import UIKit
 
 class PKPageModel: NSObject {
-
+    var attributedString: NSAttributedString?
+    var range: NSRange?
+    var pageIndex: Int = 1
 }
