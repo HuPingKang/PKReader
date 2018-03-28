@@ -47,7 +47,10 @@ class PKReaderTool: NSObject {
     static func cutPageWith(attrString: NSAttributedString, config: PKReaderConfig, completeHandler: (Int, PKPageModel, Bool) -> Void) -> Void {
         
         //计算一个页面的总体字符串的range：
-        let layouter = DTCoreTextLayouter.init(attributedString: attrString)
+        let attr = NSMutableAttributedString(attributedString: attrString)
+        attr.addAttribute(NSAttributedStringKey.font, value: UIFont(name: config.fontName, size: config.fontSize)!, range: NSRange(location: 0, length: attrString.length))
+        
+        let layouter = DTCoreTextLayouter.init(attributedString: attr)
         
         let rect = CGRect(x: config.contentFrame.origin.x, y: config.contentFrame.origin.y, width: config.contentFrame.size.width, height: config.contentFrame.size.height - 5)
         var frame = layouter?.layoutFrame(with: rect, range: NSRange(location: 0, length: attrString.length))

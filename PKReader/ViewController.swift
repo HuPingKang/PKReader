@@ -28,7 +28,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        guard let bookPath = Bundle.main.path(forResource: "content", ofType: "txt") else{
+        guard let bookPath = Bundle.main.path(forResource: "韩寒", ofType: "txt") else{
             return;
         }
        
